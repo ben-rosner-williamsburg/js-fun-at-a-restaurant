@@ -67,17 +67,17 @@ else {
 // Create a new variable "vegetables" and assign it to an Array of 5 different
 // vegetables, represented by their names as Strings.
 
-
+var vegetables = ["lettuce", "tomato", "carrots", "cabbage", "basil"];
 // Write the code to access the 3rd element of the Array, using bracket
 // notation.
-
+var thirdEl = vegetables[2];
 
 // Create a new variable "fruits" and assign it to an Array of 7
 // different fruits.
-
+var fruits = ["apple", "banana", "grapes", "cantaloupe", "honey dew", "watermelon", "strawberry"];
 
 // Write the code to access the 5th element of the array, using bracket notation.
-
+var fifthEl = fruits[4];
 
 //------------------------- Objects -------------------------//
 
