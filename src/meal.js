@@ -1,8 +1,8 @@
 function nameMenuItem(name) {
- return `Delicious ${name}`
+  return `Delicious ${name}`;
 }
 
-function createMenuItem(name, price, type){
+function createMenuItem(name, price, type) {
   var menuItem = {
     name: name,
     price: price,
@@ -12,23 +12,23 @@ function createMenuItem(name, price, type){
 }
 
 function addIngredients(ingredient, ingredients) {
-  if (!ingredients.includes(ingredient)){
+  if (!ingredients.includes(ingredient)) {
     ingredients.push(ingredient);
   }
   return ingredients;
 }
 
-function formatPrice(initialPrice){
+function formatPrice(initialPrice) {
   return `$${initialPrice}`;
 }
 
-function decreasePrice(price){
-    var discount = price / 10;
-    var newPrice = price - discount;
-    return newPrice;
+function decreasePrice(price) {
+  var discount = price / 10;
+  var newPrice = price - discount;
+  return newPrice;
 }
 
-function createRecipe(title, ingredients, type){
+function createRecipe(title, ingredients, type) {
   var recipe = {
     title: title,
     ingredients: ingredients,
